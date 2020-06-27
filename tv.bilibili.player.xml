@@ -1,0 +1,84 @@
+<filters>
+
+  <item enabled="true">r=.{50}</item> <!-- 超长弹幕 -->
+  <item enabled="true">r=(.)\1{4,}</item> <!-- 同一字符连续出现四次 -->
+  <item enabled="true">r=^[\.。,，\/\?？!！~～@\^、+=\-_ ]+$</item> <!-- 无意义符号 -->
+  <item enabled="true">r=^[^\u4E00-\u9FA5]$</item> <!-- 单个非中文字符 -->
+  <item enabled="true">r=暴力|膜|蛤|🐸|长者</item> <!-- 你膜你妈呢 -->
+  <item enabled="true">r=[哩琴リ]译制</item> <!-- 哔哩字幕组 -->
+  <item enabled="true">r=([真好很]|有点)菜|你行你上|唱反调</item> <!-- 没事找事 -->
+  <item enabled="true">r=弹\s*[屏幕][^护]*$</item> <!-- 弹幕墙、弹幕测试…… 防止误伤弹幕护体 -->
+  <item enabled="true">r=[3３三立]\s+[dDＤ体體]</item> <!-- 立  体  弹  幕 -->
+  <item enabled="true">r=(^|是)..[红橙黄绿青蓝紫黑白灰].{0,2}$</item> <!-- 颜色 -->
+  <item enabled="true">r=^[第前]([0-9零一二两三四五六七八九十百千万亿].{0,6})?$</item> <!-- 行行行你第一 -->
+  <item enabled="true">r=^.{1,6}[天时点分钟秒]前</item> <!-- 0秒前行了吧 -->
+  <item enabled="true">r=^[0-9零一二两三四五六七八九十百千万亿nN]{1,4}(刷|周[木目])$</item> <!-- 你看几遍关我啥事？ -->
+  <item enabled="true">r=^[1-9]\d*\.\d*|0\.\d*[1-9]\d*倍速</item> <!-- 一倍速谢谢 -->
+  <item enabled="true">r=^[1-9]\d*倍速</item><!-- 一倍速谢谢 -->
+  <item enabled="true">r=破.*[wW万萬]</item><!-- ？ -->
+  <item enabled="true">r=[wW万萬]助攻</item><!-- ？？ -->
+  <item enabled="true">r=钟的?诅咒</item><!-- ？？？ -->
+  <item enabled="true">r=口[气氣].*[集级]</item><!-- 建议学期潜泳 -->
+  <item enabled="true">r=完结|撒花</item><!-- 完结撒花 -->
+  <item enabled="true">r=^刚刚$</item><!-- 那就快充电啊 -->
+  <item enabled="true">r=^我?好快$</item><!-- 好了好了知道你快了 -->
+  <item enabled="true">r=^我?超前~?$</item><!-- 好了好了知道你快了 -->
+  <item enabled="true">r=(^|[ !！?？~ …。，\.\,\-、]+)[好很前]?前+(排|[ !！?？~ …。，\.\,\-、]+|$)</item><!-- 好了好了知道你快了 -->
+  <item enabled="true">r=[冲早][啊呀鸭]</item><!-- 好 -->
+  <item enabled="true">r=多谢|款待|打卡</item><!-- 不客气 -->
+  <item enabled="true">r=[王亡]者(荣耀|农药)</item><!-- 王者荣耀 -->
+  <item enabled="true">r=(唱|口昌)(战|占戈)(歌|哥欠)</item><!-- 快去买杜比家庭影院 -->
+  <item enabled="true">r=[在再][来看][1一亿]遍</item><!-- 你看多少遍都跟我没关系 -->
+  <item enabled="true">r=[0-9万名].{1,6}[伴你们人友]($|.*[豪嚎号好])</item> <!-- 12450个小伙伴好 -->
+  <item enabled="true">r=降.{0,3}(成功|失败|完美)</item><!-- 炸了指挥部 -->
+  <item enabled="true">r=从左到右|空降|指挥</item><!-- 炸了指挥部 -->
+  <item enabled="true">r=空难(现场|$)</item><!-- 炸了指挥部 -->
+  <item enabled="true">r=[漂飘飄飙][移逸遗]</item><!-- 漂移 -->
+  <item enabled="true">r=[左右][漂飘飄飙]</item><!-- 漂移 -->
+  <item enabled="true">r=(\s|^|[我怎来会].?)[漂飘飄飙]+($|.?[～~?？。，啊]|\s)</item><!-- 漂移 -->
+  <item enabled="true">r=\s{5}</item><!-- 漂移 -->
+  <item enabled="true">r=入(宅|坑$)</item> <!-- xx（作品名）入宅 -->
+  <item enabled="true">r=[求不很找要][虐哭]|无感|新人</item> <!-- 你是抖M！？ -->
+  <item enabled="true">r=^什么[!\?！？，,、~\s]</item> <!-- 什么？xxxx了！？ -->
+  <item enabled="true">r=^《.*》$</item> <!-- 书名刷屏 -->
+  <item enabled="true">r=^告诉.*[我还永]</item> <!-- 告诉xx我爱她 -->
+  <item enabled="true">r=暴[露漏]((补番)?时间)?[了乐啦拉]</item> <!-- 我也暴露了 -->
+  <item enabled="true">r=[的你].{0,3}暴露.{0,3}(时间)?了</item> <!-- 你也暴露了 -->
+  <item enabled="true">r=周目($|.*(我|回|起|报|人|过|来|此))</item> <!-- N周目加我一个 -->
+  <item enabled="true">r=つロ|[干肝乾]杯</item> <!-- bilibili干杯 -->
+  <item enabled="true">r=[马馬][冬东]|[冬东]梅|[马馬]什么梅</item><!-- 卢本伟！ -->
+  <item enabled="true">r=([是由]|下面.*)我[儿孙]子</item><!-- 叫爷爷干嘛 -->
+  <item enabled="true">r=^解[ !！?？~ …。，\.\,\-、]*$</item><!-- 解！！ -->
+  <item enabled="true">r=170001</item><!-- 爬 -->
+  <item enabled="true">r=[fF]{3}.*(真爱|百合|基|性恋)</item> <!-- 不烧真爱的FFF团不是真正的FFF团 -->
+  <item enabled="true">r=豆腐.*[酸甜苦辣咸臭糖盐醋吃加]</item><!-- 要是B站的正则支持负向零宽断言，其实是可以写在一行里的 -->
+  <item enabled="true">r=[酸甜苦辣咸臭糖盐醋吃加].*豆腐</item> <!-- 但是不支持 -->
+  <item enabled="true">r=我的?(床上|老婆)</item> <!-- 你们都错了，蕾姆其实在我床上 -->
+  <item enabled="true">t=我选</item> <!-- 说得好，我选择xxx -->
+  <item enabled="true">r=关(弹幕|评论)</item> <!-- 说得好，我选择xxx -->
+  <item enabled="true">r=(\d{1,2}|十|十?[一二三四五六七八九十])([\.,\/:：、，；点\-月。]|\s+)(\d{1,2}|[二三]?十|[二三]?十?[一二三四五六七八九]).{0,4}($|[日的过我别你上午夜晨])</item> <!-- 1月11的路过 -->
+  <item enabled="true">r=\d\d(\d\d)?([\.,。，、\/\-年—*]|\s+)\d(\d)?([\.,。，、\/\-月—*]|\s+)\d</item> <!-- 2000.1.11路过 -->
+  <item enabled="true">r=^(2([^3]\d|3[^3])|6([^6]\d|6[^6])|[^26]\d{2})\d{0,5}$</item> <!-- ^(?!233|666)\d{3,8}$，屏蔽20160101 -->
+  <item enabled="true">r=(元旦|年|国庆|春|秋|圣诞).?快乐</item><!-- 同乐同乐 -->
+  <item enabled="true">r=[墙壁]外|科[技学學]|脚本|港澳台</item><!-- 那你很牛咯？ -->
+  <item enabled="true">r=[卐卍]</item><!-- 刷屏 -->
+  <item enabled="true">r=你们.*(几分钟|上一?次|第几|多(久|长时间))</item><!-- Never -->
+  <item enabled="true">r=你们.*((几|多少)分钟|上一?次|什么时候|第几|多(久|长时间))</item><!-- Never Never -->
+  <item enabled="true">r=(前面|说).*(别[走跑]|等[我等着])</item><!-- 我已经先跑了 -->
+  <item enabled="true">r=的(别[走跑]|等[我等着])</item><!-- 溜了溜了 -->
+  <item enabled="true">r=只有我(一个人|觉得|感觉)</item><!-- 是的没错 -->
+  <item enabled="true">r=我知道你.*在看</item><!-- 是的我在看 -->
+  <item enabled="true">r=(华为|菊花|小米|米猴|荣耀|粗粮)(海|水)军|为黑而黑|故意黑|乱黑|不吹不黑</item><!-- Pixel天下第一 -->
+  <item enabled="true">r=(米|果|索|花|华|任)(粉|黑|蛆|狗|豚|卫兵)</item><!-- 索尼大法好啊 -->
+  <item enabled="true">r=China|中华|种花民族|共和[国固]+</item><!-- 建议参军 -->
+  <item enabled="true">r=湾湾|绿蛙|曱甴|黄尸|[兔日][杂砸]|你国|桂枝|[棒毛鬼]子|阿三|尼哥|支那</item><!-- 歧视是相互的 -->
+  <item enabled="true">r=花式洗|洗地|跪舔|到处喷|互喷|喷子|撕逼|继续撕</item><!-- 你们不要再打了 -->
+  <item enabled="true">r=富强.*民主|文明.*和谐|自由.*平等|公正.*法治|爱国.*敬业|诚信.*友善</item><!-- 核心价值观 -->
+  <item enabled="true">r=真的丑|丑出翔|丑死了|确实丑|丑出天际|就是丑</item><!-- 单方面宣布Pixel最丑 -->
+  <item enabled="true">r=暂停看.{1}字</item><!-- 我偏不看 -->
+  <item enabled="true">r=充(的)?(值|钱)|麻花疼</item><!-- 再来一单 -->
+  <item enabled="true">r=[操日干草RrIiCcAaOo]+(泥马|尼玛|你妈|[NnIi]+[MmAa]+)</item><!-- 粗鄙之语 -->
+  <item enabled="true">r=[卧握沃喔窝我WwOo]+[槽操日草CcAaOo]+</item><!-- 奈何本人没文化 -->
+  <item enabled="true">r=[(（](察 *觉|觉 *察)[)）]</item><!-- 你想多了 -->
+  
+</filters>
