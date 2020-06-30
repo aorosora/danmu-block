@@ -71,7 +71,8 @@
   <item enabled="true">r=(华为|菊花|小米|米猴|荣耀|粗粮)(海|水)军|为黑而黑|故意黑|乱黑|不吹不黑</item><!-- Pixel天下第一 -->
   <item enabled="true">r=(米|果|索|花|华|任)(粉|黑|蛆|狗|豚|卫兵)</item><!-- 索尼大法好啊 -->
   <item enabled="true">r=China|中华|种花民族|共和[国固]+</item><!-- 建议参军 -->
-  <item enabled="true">r=湾湾|绿蛙|曱甴|黄尸|[兔日][杂砸]|你国|桂枝|[棒毛鬼]子|阿三|尼哥|支那|白皮</item><!-- 歧视是相互的 -->
+  <item enabled="true">r=湾湾|绿蛙|曱甴|黄尸|[兔日][杂砸]|你国|桂枝|[棒毛鬼]子|阿三|尼哥|支那|白皮|[哈精]日|日[杂砸]</item><!-- 歧视是相互的 -->
+  <item enabled="true">r=[你赵爱][国家]|[精姓]赵|五毛|自干五|兔[杂砸]|[那纳]兔|[国红]粉|粉[红蛆]</item><!-- 歧视是相互的 -->
   <item enabled="true">r=花式洗|洗地|跪舔|到处喷|互喷|喷子|撕逼|继续撕</item><!-- 你们不要再打了 -->
   <item enabled="true">r=富强.*民主|文明.*和谐|自由.*平等|公正.*法治|爱国.*敬业|诚信.*友善</item><!-- 核心价值观 -->
   <item enabled="true">r=真的丑|丑出翔|丑死了|确实丑|丑出天际|就是丑</item><!-- 单方面宣布Pixel最丑 -->
@@ -80,5 +81,6 @@
   <item enabled="true">r=[操日干草RrIiCcAaOo]+(泥马|尼玛|你妈|[NnIi]+[MmAa]+)</item><!-- 粗鄙之语 -->
   <item enabled="true">r=[卧握沃喔窝我WwOo]+[槽操日草CcAaOo]+</item><!-- 奈何本人没文化 -->
   <item enabled="true">r=[(（](察 *觉|觉 *察)[)）]</item><!-- 你想多了 -->
+  <item enabled="true">r=(中|西)(药|医)</item><!-- 你再说一遍？ -->
   
 </filters>
