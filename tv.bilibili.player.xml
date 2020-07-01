@@ -82,5 +82,7 @@
   <item enabled="true">r=[卧握沃喔窝我WwOo]+[槽操日草CcAaOo]+</item><!-- 奈何本人没文化 -->
   <item enabled="true">r=[(（](察 *觉|觉 *察)[)）]</item><!-- 你想多了 -->
   <item enabled="true">r=(中|西)(药|医)</item><!-- 你再说一遍？ -->
-  
+  <item enabled="true">r=开口.{1,}|张嘴{1,}</item><!-- 跪久了就站不起来了 -->
+  <item enabled="true">r=[Aa][Vv][①②③④⑤⑥⑦⑧⑨０１２３４５６７８９0-9 〇一二两俩三仨四五六七八九十零百千万亿Ww]{3,}</item><!-- AV号 -->
+  <item enabled="true">r=[Bb][Vv][0-9|a-z|A-Z][0-9|a-z|A-Z][0-9|a-z|A-Z]</item><!-- BV号 -->
 </filters>
